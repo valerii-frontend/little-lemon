@@ -21,32 +21,32 @@ export default function Footer() {
               <h3 className='footer__title'>Navigation</h3>
               <ul className='footer__list'>
                 <li>
-                  <Link className='link' to='/'>
+                  <Link className='link' to='/little-lemon'>
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link className='link' to='/about'>
+                  <Link className='link' to='/little-lemon/about'>
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link className='link' to='/reservation'>
+                  <Link className='link' to='/little-lemon/reservation'>
                     Reservation
                   </Link>
                 </li>
                 <li>
-                  <Link className='link' to='/order'>
+                  <Link className='link' to='/little-lemon/order'>
                     Order online
                   </Link>
                 </li>
                 <li>
-                  <Link className='link' to='/menu'>
+                  <Link className='link' to='/little-lemon/menu'>
                     Menu
                   </Link>
                 </li>
                 <li>
-                  <Link className='link' to='/login'>
+                  <Link className='link' to='/little-lemon/login'>
                     Login
                   </Link>
                 </li>

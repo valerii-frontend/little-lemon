@@ -14,32 +14,32 @@ export default function Nav() {
       </span>
       <ul className={`nav__list ${menu ? "active" : ""}`}>
         <li>
-          <NavLink className='link' to='/'>
+          <NavLink className='link' to='/little-lemon'>
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink className='link' to='/about'>
+          <NavLink className='link' to='/little-lemon/about'>
             About
           </NavLink>
         </li>
         <li>
-          <NavLink className='link' to='/reservation'>
+          <NavLink className='link' to='/little-lemon/reservation'>
             Reservation
           </NavLink>
         </li>
         <li>
-          <NavLink className='link' to='/order'>
+          <NavLink className='link' to='/little-lemon/order'>
             Order online
           </NavLink>
         </li>
         <li>
-          <NavLink className='link' to='/menu'>
+          <NavLink className='link' to='/little-lemon/menu'>
             Menu
           </NavLink>
         </li>
         <li>
-          <NavLink className='link' to='/login'>
+          <NavLink className='link' to='/little-lemon/login'>
             Login
           </NavLink>
         </li>

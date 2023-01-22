@@ -12,15 +12,15 @@ import Error from "./pages/Error";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/little-lemon",
     element: <Home />,
     errorElement: <Error />,
   },
-  { path: "/order", element: <Order /> },
-  { path: "/reservation", element: <Reservation /> },
-  { path: "/about", element: <About /> },
-  { path: "/menu", element: <Menu /> },
-  { path: "/login", element: <Login /> },
+  { path: "/little-lemon/order", element: <Order /> },
+  { path: "/little-lemon/reservation", element: <Reservation /> },
+  { path: "/little-lemon/about", element: <About /> },
+  { path: "/little-lemon/menu", element: <Menu /> },
+  { path: "/little-lemon/login", element: <Login /> },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
