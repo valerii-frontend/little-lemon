@@ -11,7 +11,7 @@ function Order() {
       {modal.ok && (
         <Modal
           title='Thanks for the order'
-          to='/little-lemon'
+          to='/little-lemon/home'
           text='Please wait for a call to clarify the details of the order.'
         />
       )}

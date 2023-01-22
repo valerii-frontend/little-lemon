@@ -8,7 +8,7 @@ export default function Header() {
     <header className='header'>
       <div className='header__container'>
         <div className='header__row'>
-          <Link to='/little-lemon' className='logo'>
+          <Link to='/little-lemon/home' className='logo'>
             <img src={Logo} alt='Little Lemon Logo' />
             <span>little lemon</span>
           </Link>

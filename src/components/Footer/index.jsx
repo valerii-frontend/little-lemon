@@ -21,7 +21,7 @@ export default function Footer() {
               <h3 className='footer__title'>Navigation</h3>
               <ul className='footer__list'>
                 <li>
-                  <Link className='link' to='/little-lemon'>
+                  <Link className='link' to='/little-lemon/home'>
                     Home
                   </Link>
                 </li>

@@ -12,7 +12,7 @@ import Error from "./pages/Error";
 
 const router = createBrowserRouter([
   {
-    path: "/little-lemon",
+    path: "/little-lemon/home",
     element: <Home />,
     errorElement: <Error />,
   },
