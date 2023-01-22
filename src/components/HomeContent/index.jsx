@@ -17,7 +17,7 @@ export default function HomeContent() {
                 <h1 className='title home__title'>Little Lemon</h1>
                 <h2 className='subtitle home__subtitle'>Chicago</h2>
                 <p className='highlights home__highlights'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut maiores necessitatibus error
+                  The Little Lemon it's a small, family-owned restaurant that located in a quiet, residential area.
                 </p>
                 <Link to='/little-lemon/reservation' className='btn home__btn'>
                   Reserve a table
@@ -52,7 +52,8 @@ export default function HomeContent() {
                     <span className='card__price'>$12.99</span>
                   </div>
                   <div className='card__text'>
-                    Note that when a dish is clicked, the user is taken to another screen and that this highlights
+                    A traditional salad from Greece that typically includes tomatoes, cucumbers, onions, green peppers,
+                    and feta cheese.
                   </div>
                   <div className='card__footer'>
                     <Link to='/little-lemon/order' className='highlights card__highlights link'>
@@ -73,7 +74,8 @@ export default function HomeContent() {
                     <span className='card__price'>$5.99</span>
                   </div>
                   <div className='card__text'>
-                    Note that when a dish is clicked, the user is taken to another screen and that this highlights
+                    Italian appetizer typically made of grilled bread that is rubbed with garlic and topped with olive
+                    oil, tomatoes, and basil.
                   </div>
                   <div className='card__footer'>
                     <Link to='/little-lemon/order' className='highlights card__highlights link'>
@@ -94,7 +96,7 @@ export default function HomeContent() {
                     <span className='card__price'>$5.00</span>
                   </div>
                   <div className='card__text'>
-                    Note that when a dish is clicked, the user is taken to another screen and that this highlights
+                    A sweet dish includes lemon-flavored ingredients such as lemon zest, lemon juice, or lemon curd.
                   </div>
                   <div className='card__footer'>
                     <Link to='/little-lemon/order' className='highlights card__highlights link'>
