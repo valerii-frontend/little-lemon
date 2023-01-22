@@ -19,7 +19,7 @@ export default function HomeContent() {
                 <p className='highlights home__highlights'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut maiores necessitatibus error
                 </p>
-                <Link to='/reservation' className='btn home__btn'>
+                <Link to='/little-lemon/reservation' className='btn home__btn'>
                   Reserve a table
                 </Link>
               </div>
@@ -36,7 +36,7 @@ export default function HomeContent() {
         <div className='specials__container'>
           <div className='specials__header'>
             <h1 className='specials__title title'>This weeks specials!</h1>
-            <Link to='/menu' className='btn specials__btn'>
+            <Link to='/little-lemon/menu' className='btn specials__btn'>
               Online Menu
             </Link>
           </div>
@@ -55,7 +55,7 @@ export default function HomeContent() {
                     Note that when a dish is clicked, the user is taken to another screen and that this highlights
                   </div>
                   <div className='card__footer'>
-                    <Link to='/order' className='highlights card__highlights link'>
+                    <Link to='/little-lemon/order' className='highlights card__highlights link'>
                       Order a delivery <img src={deliveryIcon} alt='truck vector icon' />
                     </Link>
                   </div>
@@ -76,7 +76,7 @@ export default function HomeContent() {
                     Note that when a dish is clicked, the user is taken to another screen and that this highlights
                   </div>
                   <div className='card__footer'>
-                    <Link to='/order' className='highlights card__highlights link'>
+                    <Link to='/little-lemon/order' className='highlights card__highlights link'>
                       Order a delivery <img src={deliveryIcon} alt='truck vector icon' />
                     </Link>
                   </div>
@@ -97,7 +97,7 @@ export default function HomeContent() {
                     Note that when a dish is clicked, the user is taken to another screen and that this highlights
                   </div>
                   <div className='card__footer'>
-                    <Link to='/order' className='highlights card__highlights link'>
+                    <Link to='/little-lemon/order' className='highlights card__highlights link'>
                       Order a delivery <img src={deliveryIcon} alt='truck vector icon' />
                     </Link>
                   </div>
