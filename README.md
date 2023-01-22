@@ -7,3 +7,4 @@
 3. Use Semantic HTML
 4. CSS styles with animations & transitions
 5. Responsive Web Design with CSS @media 
+6. Create fake form for table reservation with Submit message
