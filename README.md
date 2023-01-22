@@ -8,3 +8,4 @@
 4. CSS styles with animations & transitions
 5. Responsive Web Design with CSS @media 
 6. Create fake form for table reservation with Submit message
+7. Create `fake` content for `About` and `Menu` pages
