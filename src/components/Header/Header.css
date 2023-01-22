@@ -1,0 +1,54 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 3;
+}
+.header__row {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+.logo {
+  flex: 0 0 148px;
+  margin-right: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2px;
+  text-decoration: none;
+  transition: 0.5s;
+  position: relative;
+  z-index: 3;
+}
+.logo span {
+  text-transform: uppercase;
+
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Markazi Text";
+  color: var(--primary);
+}
+.logo:hover {
+  filter: brightness(1.1);
+  transform: scale(1.03);
+}
+@media (max-width: 992px) {
+  .logo {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .header__row {
+    min-height: 60px;
+  }
+  .logo {
+    flex: 0 0 200px;
+    margin: 0;
+  }
+  .logo span {
+    font-size: 30px;
+  }
+}
