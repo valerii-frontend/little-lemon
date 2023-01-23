@@ -11,16 +11,13 @@ import Login from "./pages/Login";
 import Error from "./pages/Error";
 
 const router = createBrowserRouter([
-  {
-    path: "/little-lemon/home",
-    element: <Home />,
-    errorElement: <Error />,
-  },
+  { path: "/little-lemon/home", element: <Home /> },
   { path: "/little-lemon/order", element: <Order /> },
   { path: "/little-lemon/reservation", element: <Reservation /> },
   { path: "/little-lemon/about", element: <About /> },
   { path: "/little-lemon/menu", element: <Menu /> },
   { path: "/little-lemon/login", element: <Login /> },
+  { path: "*", element: <Error /> },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

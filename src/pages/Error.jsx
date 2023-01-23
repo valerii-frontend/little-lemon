@@ -6,7 +6,7 @@ function Error() {
     <>
       <Header />
       <main className='page'>
-        <h1>Page is not found - 404</h1>
+        <h1 className='title'>Page is not found - 404</h1>
       </main>
       <Footer />
     </>

@@ -2,7 +2,7 @@
   "name": "little-lemon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://valerii-frontend.github.io/little-lemon",
+  "homepage": "https://valerii-frontend.github.io/little-lemon/home",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
