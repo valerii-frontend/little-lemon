@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/little-lemon/static/css/main.941e02ef.css",
-    "main.js": "/little-lemon/static/js/main.637a124c.js",
-    "static/media/card_2.png": "/little-lemon/static/media/card_2.81e115570762ef1210b0.png",
-    "static/media/main.png": "/little-lemon/static/media/main.03cf3d299f92704581e4.png",
-    "static/media/card_1.png": "/little-lemon/static/media/card_1.63946bdcf4fe14425b30.png",
-    "static/media/lemon.jpg": "/little-lemon/static/media/lemon.cf79bf1dda21314bc5bb.jpg",
-    "static/media/card_3.png": "/little-lemon/static/media/card_3.b55c0053954d129d6076.png",
-    "static/media/instagram.svg": "/little-lemon/static/media/instagram.9365c869c4d5d42c5ce6752489649ee0.svg",
-    "static/media/youtube.svg": "/little-lemon/static/media/youtube.f1b9f5d434c5858cfb91c17db65f604a.svg",
-    "index.html": "/little-lemon/index.html",
-    "static/media/twitter.svg": "/little-lemon/static/media/twitter.cbd0313f4a863f4f414e1b8df57eda93.svg",
-    "static/media/truck.svg": "/little-lemon/static/media/truck.34282e32691478f0153392a026dab429.svg",
-    "static/media/close.svg": "/little-lemon/static/media/close.53722b1e565111b572c1b70ad01c549d.svg",
-    "static/media/facebook.svg": "/little-lemon/static/media/facebook.4f6f078af1b8f7ccd392245c34e8247e.svg",
-    "static/media/menu.svg": "/little-lemon/static/media/menu.ffd9e14875a489a79f097ae221b6ca58.svg",
-    "main.941e02ef.css.map": "/little-lemon/static/css/main.941e02ef.css.map",
-    "main.637a124c.js.map": "/little-lemon/static/js/main.637a124c.js.map"
+    "main.css": "/little-lemon/home/static/css/main.941e02ef.css",
+    "main.js": "/little-lemon/home/static/js/main.8a24336b.js",
+    "static/media/card_2.png": "/little-lemon/home/static/media/card_2.81e115570762ef1210b0.png",
+    "static/media/main.png": "/little-lemon/home/static/media/main.03cf3d299f92704581e4.png",
+    "static/media/card_1.png": "/little-lemon/home/static/media/card_1.63946bdcf4fe14425b30.png",
+    "static/media/lemon.jpg": "/little-lemon/home/static/media/lemon.cf79bf1dda21314bc5bb.jpg",
+    "static/media/card_3.png": "/little-lemon/home/static/media/card_3.b55c0053954d129d6076.png",
+    "static/media/instagram.svg": "/little-lemon/home/static/media/instagram.d94b3816946e6a63ea194547af622c8d.svg",
+    "static/media/youtube.svg": "/little-lemon/home/static/media/youtube.ddb14e3ee1527dfa21be7bd3b45f9185.svg",
+    "index.html": "/little-lemon/home/index.html",
+    "static/media/twitter.svg": "/little-lemon/home/static/media/twitter.74fe8b9a56e3da755315a220358a0387.svg",
+    "static/media/truck.svg": "/little-lemon/home/static/media/truck.5d591e19db3a564047042d52c7d39896.svg",
+    "static/media/close.svg": "/little-lemon/home/static/media/close.0aab92aa6d71f7568254b30bfd139144.svg",
+    "static/media/facebook.svg": "/little-lemon/home/static/media/facebook.4c8dbb9f739be1d02e39db6ecbaaf5ad.svg",
+    "static/media/menu.svg": "/little-lemon/home/static/media/menu.d4cb7df7b1b53a9a7859937d748e02eb.svg",
+    "main.941e02ef.css.map": "/little-lemon/home/static/css/main.941e02ef.css.map",
+    "main.8a24336b.js.map": "/little-lemon/home/static/js/main.8a24336b.js.map"
   },
   "entrypoints": [
     "static/css/main.941e02ef.css",
-    "static/js/main.637a124c.js"
+    "static/js/main.8a24336b.js"
   ]
 }
