@@ -1,7 +1,5 @@
 # Coursera Frontend Developer course Capstone project
 ## Little-lemon
-### [LIVE PREVIEW](https://valerii-frontend.github.io/little-lemon/home)
-
 1. Create Figma Layout
 2. Use React and React-router to implement it
 3. Use Semantic HTML
