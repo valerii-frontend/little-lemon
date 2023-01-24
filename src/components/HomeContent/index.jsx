@@ -19,7 +19,7 @@ export default function HomeContent() {
                 <p className='highlights home__highlights'>
                   The Little Lemon it's a small, family-owned restaurant that located in a quiet, residential area.
                 </p>
-                <Link to='/reservation' className='btn home__btn'>
+                <Link to='/little-lemon/reservation' className='btn home__btn'>
                   Reserve a table
                 </Link>
               </div>
@@ -36,7 +36,7 @@ export default function HomeContent() {
         <div className='specials__container'>
           <div className='specials__header'>
             <h1 className='specials__title title'>This weeks specials!</h1>
-            <Link to='/menu' className='btn specials__btn'>
+            <Link to='/little-lemon/menu' className='btn specials__btn'>
               Online Menu
             </Link>
           </div>
@@ -56,7 +56,7 @@ export default function HomeContent() {
                     and feta cheese.
                   </div>
                   <div className='card__footer'>
-                    <Link to='/order' className='highlights card__highlights link'>
+                    <Link to='/little-lemon/order' className='highlights card__highlights link'>
                       Order a delivery <img src={deliveryIcon} alt='truck vector icon' />
                     </Link>
                   </div>
@@ -78,7 +78,7 @@ export default function HomeContent() {
                     oil, tomatoes, and basil.
                   </div>
                   <div className='card__footer'>
-                    <Link to='/order' className='highlights card__highlights link'>
+                    <Link to='/little-lemon/order' className='highlights card__highlights link'>
                       Order a delivery <img src={deliveryIcon} alt='truck vector icon' />
                     </Link>
                   </div>
@@ -99,7 +99,7 @@ export default function HomeContent() {
                     A sweet dish includes lemon-flavored ingredients such as lemon zest, lemon juice, or lemon curd.
                   </div>
                   <div className='card__footer'>
-                    <Link to='/order' className='highlights card__highlights link'>
+                    <Link to='/little-lemon/order' className='highlights card__highlights link'>
                       Order a delivery <img src={deliveryIcon} alt='truck vector icon' />
                     </Link>
                   </div>

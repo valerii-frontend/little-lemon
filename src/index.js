@@ -11,12 +11,15 @@ import Login from "./pages/Login";
 import Error from "./pages/Error";
 
 const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
-  { path: "order", element: <Order /> },
-  { path: "reservation", element: <Reservation /> },
-  { path: "about", element: <About /> },
-  { path: "menu", element: <Menu /> },
-  { path: "login", element: <Login /> },
+  {
+    path: "/little-lemon",
+    element: <Home />,
+  },
+  { path: "/little-lemon/order", element: <Order /> },
+  { path: "/little-lemon/reservation", element: <Reservation /> },
+  { path: "/little-lemon/about", element: <About /> },
+  { path: "/little-lemon/menu", element: <Menu /> },
+  { path: "/little-lemon/login", element: <Login /> },
   { path: "*", element: <Error /> },
 ]);
 
