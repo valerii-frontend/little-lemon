@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Route, createBrowserRouter, RouterProvider, createRoutesFromElements } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home";
 import Order from "./pages/Order";
@@ -11,14 +11,18 @@ import Login from "./pages/Login";
 import Error from "./pages/Error";
 
 const router = createBrowserRouter([
-  { path: "/little-lemon/home", element: <Home /> },
-  { path: "/little-lemon/order", element: <Order /> },
-  { path: "/little-lemon/reservation", element: <Reservation /> },
-  { path: "/little-lemon/about", element: <About /> },
-  { path: "/little-lemon/menu", element: <Menu /> },
-  { path: "/little-lemon/login", element: <Login /> },
+  { path: "/", element: <Home /> },
+  { path: "order", element: <Order /> },
+  { path: "reservation", element: <Reservation /> },
+  { path: "about", element: <About /> },
+  { path: "menu", element: <Menu /> },
+  { path: "login", element: <Login /> },
   { path: "*", element: <Error /> },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<RouterProvider router={router} />);
+root.render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
