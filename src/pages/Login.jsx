@@ -1,5 +1,3 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import Modal from "../components/Modal";
 import { useState } from "react";
 
@@ -7,11 +5,10 @@ function Login() {
   const [modal, setModal] = useState({ ok: false, login: "", password: "" });
   return (
     <>
-      <Header />
       {modal.ok && (
         <Modal
           title='Welcome to the Little Lemon'
-          to='/little-lemon/menu'
+          to='menu'
           text='We are happy to see you here. Look our offer to the menu page'
         />
       )}
@@ -56,7 +53,6 @@ function Login() {
           </form>
         </div>
       </main>
-      <Footer />
     </>
   );
 }

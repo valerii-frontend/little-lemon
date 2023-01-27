@@ -1,19 +1,13 @@
 import { useState } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+
 import Modal from "../components/Modal";
 
 function Order() {
   const [modal, setModal] = useState({ ok: false, phone: "", number: "", time: "" });
   return (
     <>
-      <Header />
       {modal.ok && (
-        <Modal
-          title='Thanks for the order'
-          to='/little-lemon/home'
-          text='Please wait for a call to clarify the details of the order.'
-        />
+        <Modal title='Thanks for the order' to='/' text='Please wait for a call to clarify the details of the order.' />
       )}
       <main className='page'>
         <div className='page__container'>
@@ -92,7 +86,6 @@ function Order() {
           </form>
         </div>
       </main>
-      <Footer />
     </>
   );
 }
